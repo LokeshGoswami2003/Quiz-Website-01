@@ -1,0 +1,217 @@
+    body {
+        background-image: linear-gradient(to right bottom, #b2d5fc, #56abd5, #025091);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #container {
+        height: 550px;
+        width: 600px;
+        margin-top: 40px;
+        backdrop-filter: saturate(180%) blur(10px);
+        background-image: linear-gradient(to right bottom, rgb(138, 138, 255), rgb(194, 218, 255));
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgb(60, 60, 80);
+    }
+    
+    #container1 {
+        margin-top: 30px;
+    }
+    
+    #heading {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        color: white;
+        text-shadow: 5px 5px 5px rgb(1, 1, 172);
+        font-weight: bold;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    hr {
+        color: brown;
+        width: 90%;
+    }
+    
+    .data {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    input[type="text"] {
+        height: 50%;
+        width: 60%;
+        border: 2px solid;
+        border-bottom: 3px rgb(95, 95, 159) solid;
+        border-right: 3px rgb(95, 95, 159) solid;
+        border-top: 3px rgb(15, 6, 122) solid;
+        border-left: 3px rgb(15, 6, 122) solid;
+        border-radius: 15px;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        padding: 10px;
+        background: none;
+        color: black;
+        box-shadow: 5px 5px 10px rgb(60, 60, 80);
+    }
+    
+    input[type="text"]:hover {
+        border-bottom: 3px rgb(15, 6, 122) solid;
+        border-right: 3px rgb(15, 6, 122) solid;
+        border-top: 3px rgb(95, 95, 159) solid;
+        border-left: 3px rgb(95, 95, 159) solid;
+        transform: scale(1.03);
+    }
+    
+    input[type="text"]:focus {
+        border-bottom: 3px rgb(15, 6, 122) solid;
+        border-right: 3px rgb(15, 6, 122) solid;
+        border-top: 3px rgb(95, 95, 159) solid;
+        border-left: 3px rgb(95, 95, 159) solid;
+        transform: scale(1.03);
+    }
+    
+    #textb {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    #message1 {
+        height: 70%;
+        width: 60%;
+        border: 2px solid;
+        border-bottom: 3px rgb(95, 95, 159) solid;
+        border-right: 3px rgb(95, 95, 159) solid;
+        border-top: 3px rgb(15, 6, 122) solid;
+        border-left: 3px rgb(15, 6, 122) solid;
+        border-radius: 15px;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        padding: 10px;
+        background: none;
+        color: black;
+        box-shadow: 5px 5px 10px rgb(60, 60, 80);
+    }
+    
+    #message1:hover {
+        border-bottom: 3px rgb(15, 6, 122) solid;
+        border-right: 3px rgb(15, 6, 122) solid;
+        border-top: 3px rgb(95, 95, 159) solid;
+        border-left: 3px rgb(95, 95, 159) solid;
+        transform: scale(1.03);
+    }
+    
+    #message1:focus {
+        border-bottom: 3px rgb(15, 6, 122) solid;
+        border-right: 3px rgb(15, 6, 122) solid;
+        border-top: 3px rgb(95, 95, 159) solid;
+        border-left: 3px rgb(95, 95, 159) solid;
+        transform: scale(1.03);
+    }
+    
+    #butt {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    #button1 {
+        width: 120px;
+        height: 90%;
+        border-radius: 15px;
+        background: none;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(1, 1, 172);
+        box-shadow: 5px 5px 10px rgb(60, 60, 80);
+        border-bottom: 3px rgb(95, 95, 159) solid;
+        border-right: 3px rgb(95, 95, 159) solid;
+        border-top: 3px rgb(15, 6, 122) solid;
+        border-left: 3px rgb(15, 6, 122) solid;
+    }
+    
+    #button1:hover {
+        border-bottom: 3px rgb(15, 6, 122) solid;
+        border-right: 3px rgb(15, 6, 122) solid;
+        border-top: 3px rgb(95, 95, 159) solid;
+        border-left: 3px rgb(95, 95, 159) solid;
+        transform: scale(1.03);
+    }
+    
+    #team {
+        margin-top: 30px;
+        height: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #heading1 {
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        text-shadow: 5px 5px 10px rgb(1, 1, 172);
+    }
+    
+    #contacts {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .section {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .person {
+        height: 230px;
+        width: 230px;
+        background: linear-gradient(to right bottom, rgb(165, 149, 255), rgb(190, 188, 227), rgb(177, 108, 255));
+        border: 2px solid black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 10px 10px 20px rgb(60, 60, 80);
+    }
+    
+    .profile {
+        height: 130px;
+        width: 130px;
+        background: none;
+    }
+    
+    img {
+        height: 130px;
+        width: 130px;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
